@@ -3,6 +3,8 @@
   <div id="app">
 
     <MenuApp/>
+    
+    <router-view/>
 
     <FooterApp></FooterApp>
 
