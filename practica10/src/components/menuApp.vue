@@ -3,8 +3,8 @@
     <img src="https://www.mined.gob.sv/wp-content/uploads/2021/logo_mined.png" alt="Logo">
 
     <ul>
-    <li><router-link to="/">INICIO</router-link></li>
-    <li><router-link to="/">INtirucii</router-link></li>
+    <li><router-link to="/">Inicio</router-link></li>
+    <li><router-link to="/">Institución</router-link></li>
     <li><router-link to="/">Contactanos</router-link></li>
     </ul>
   </nav>
