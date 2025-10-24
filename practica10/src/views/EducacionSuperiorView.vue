@@ -138,7 +138,17 @@
           </li>
         </ul>
       </section>
+
     </div>
+
+    <div class="funciones-extra">
+      <a href="https://www.mined.gob.sv/2023/06/12/estadisticas-educativas/"><img class="Est-Pre-img" :src="require('@/assets/estadistica.svg')" alt=""><br>Estadisticas Educativas</a>
+      <a href="https://www.mined.gob.sv/descargas/"><img class="Des-Pro-img" :src="require('@/assets/descargas.svg')" alt=""><br>Descargas</a>
+      <a href="https://www.mined.gob.sv/preguntas-frecuentes/"><img class="Est-Pre-img" :src="require('@/assets/preguntas.svg')" alt=""><br>Preguntas Frecuentes</a>
+      <a href="https://www.mined.gob.sv/guia-de-programas/"><img class="Des-Pro-img" :src="require('@/assets/programa.svg')" alt=""><br>Programas</a>
+      <a href="https://www.mined.gob.sv/category/avisos/"><img :src="require('@/assets/avisos_2.svg')" alt=""><br>Avisos</a>
+    </div>
+
   </div>
 </template>
 
@@ -328,6 +338,37 @@
   transform: translateY(-3px) scale(1.02);
   border-color: rgba(154, 208, 255, 0.5);
   box-shadow: 0 16px 32px rgba(0, 0, 0, 0.45);
+}
+
+.funciones-extra {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 20px;
+  padding: 30px 0px;
+  background-color: #29303c;
+}
+ 
+.funciones-extra a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+ 
+.funciones-extra img {
+  width: 60px;
+  height: 60px;
+}
+ 
+.Est-Pre-img {
+  margin-left: 70px;
+}
+ 
+.Des-Pro-img {
+  margin-left: 15px;
+}
+ 
+.funciones-extra a:hover {
+  transform: translateY(-6px) scale(1.03);
 }
 
 /* ---- Lista simple ---- */

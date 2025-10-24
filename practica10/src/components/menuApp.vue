@@ -4,7 +4,7 @@
 
     <ul>
     <li><router-link to="/">Inicio</router-link></li>
-    <li><router-link to="/">Institución</router-link></li>
+    <li><router-link to="/educacion">Institución</router-link></li>
     <li><router-link to="/directorio">Contactanos</router-link></li>
     </ul>
   </nav>

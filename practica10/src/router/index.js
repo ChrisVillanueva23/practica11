@@ -1,6 +1,7 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import DirectorioHorario from '@/views/DirectorioHorario.vue'
+import EducacionSuperiorView from '@/views/EducacionSuperiorView.vue'
 
 
 const routes = [
@@ -21,6 +22,12 @@ const routes = [
     path: '/directorio',
     name: 'directorio',
     component: DirectorioHorario
+  },
+
+  {
+    path: '/educacion',
+    name: 'educacion',
+    component: EducacionSuperiorView
   },
 
 ]
