@@ -34,11 +34,7 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: "DirectorioHorario",
-};
-</script>
+
 
 <style scoped>
 :root {
