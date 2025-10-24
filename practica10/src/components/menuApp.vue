@@ -4,7 +4,7 @@
 
     <ul>
     <li><router-link to="/">INICIO</router-link></li>
-    <li><router-link to="/">Institucion</router-link></li>
+    <li><router-link to="/">INtirucii</router-link></li>
     <li><router-link to="/">Contactanos</router-link></li>
     </ul>
   </nav>
