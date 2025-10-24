@@ -45,7 +45,7 @@
   --sombra-suave: rgba(0, 0, 0, 0.08);
 }
 
-/* 🔹 Prevenir scroll horizontal */
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -53,10 +53,10 @@
 }
 
 body {
-  overflow-x: hidden; /* evita desplazamiento lateral */
+  overflow-x: hidden; 
 }
 
-/* Contenedor principal */
+
 .directorio-container {
   font-family: 'Segoe UI', 'Roboto', sans-serif;
   color: var(--gris-texto);
@@ -64,20 +64,20 @@ body {
   width: 100%;
 }
 
-/* Imagen superior */
+
 .encabezado .imagen-encabezado {
   width: 100%;
   height: auto;
   display: block;
 }
 
-/* Secciones */
+
 .seccion-info {
   width: 100%;
   margin: 2rem 0;
 }
 
-/* Título de sección */
+
 .titulo-seccion {
   font-size: 2.2rem;
   font-weight: 800;
@@ -88,7 +88,7 @@ body {
   text-transform: uppercase;
 }
 
-/* Tarjetas */
+
 .tarjeta-info {
   background-color: #fff;
   width: 100%;
@@ -98,7 +98,7 @@ body {
   box-shadow: 0 2px 8px var(--sombra-suave);
 }
 
-/* Texto */
+
 .cargo {
   font-weight: 700;
   font-size: 1.4rem;
@@ -126,7 +126,7 @@ body {
   margin-top: 0.6rem;
 }
 
-/* Imágenes */
+
 .imagen-opciones .imagen-horizontal,
 .pie-pagina .imagen-inferior {
   width: 100%;
